@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="Style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario-Code Club</title>
+</head>
+
+<body>
+
+    <fieldset>
+
+        <legend>Cadastro</legend>
+
+        <form action="" method="get">
+            
+                <div>
+                    <label for="Nome">Nome</label>
+                    <input type="text" name="Nome" id="Nome" required placeholder="Digite Aqui">
+                </div>
+
+                <div>
+                    <label for="Email">Email</label>
+                    <input type="email" name="Email" id="Email" required placeholder="Digite aqui">
+                </div>
+
+                <div>
+                    <label for="Idade">Idade</label>
+                    <input type="number" name="Idade" id="Idade" min="10" max="18" required
+                        placeholder="Digite aqui">
+                </div>
+
+                <div>
+                    <label for="Data de Nascimento">Data de Nascimento</label>
+                    <input type="date" name="Data" id="Data de Nascimento" required>
+                </div>
+
+                <div>
+                    <Label>Onde Você Possui Conta</Label>
+                    <input type="checkbox" name="Conta" id="Onde Você Possui Conta" required>Instagram
+                    <input type="checkbox" name="Conta" id="Onde Você Possui Conta" required>Facebok
+                    <input type="checkbox" name="Conta" id="Onde Você Possui Conta" required>Youtube
+                </div>
+
+                <div>
+                    <label for="Sexo">Sexo</label>
+                    <input type="radio" name="Sexo" id="Sexo" value="Masculino" required>Masculino
+                    <input type="radio" name="Sexo" id="Sexo" value="Feminino" required>Feminino
+                </div>
+
+                <div>
+                    <label for="Cor dos Olhos">Cor dos Olhos</label>
+                    <input type="color" name="Cor dos Olhos" id="Cor dos Olhos" required>
+                </div>
+
+                <div>
+                    <label for="Biografia">Biografia</label>
+                    <textarea name="Biografia" id="Biografia" cols="15" rows="5" placeholder="Digite Aqui"></textarea>
+                </div>
+
+                <div>
+                    <label for="Foto de Perfil">Foto De Perfil</label>
+                    <input type="file" name="Foto de Perfil" id="Foto de Perfil" accept="image/*" required>
+                </div>
+
+                <div>
+                    <label for="Telefone">Telefone</label>
+                    <input type="tel" name="Telefone" id="Telefone" placeholder="Digite Aqui" required>
+                </div>
+
+                <div>
+                    <label for="Link do Perfil do Facebook">Link do Perfil do Facebook</label>
+                    <input type="url" name="Link" id="Link" placeholder="Digite Aqui" required>
+                </div>
+
+                <div>
+                    <label for="Senha">Senha</label>
+                    <input type="password" name="Senha" id="Senha" minlength="5" maxlength="12" placeholder="Digite Aqui" required>         
+                </div>
+
+                <div>
+                   <button type="submit">Enviar Dados</button>
+                   <button type="reset">Limpar</button>
+                </div>
+            </form>
+    </fieldset>
+</body>
+
+</html>
